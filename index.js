@@ -179,10 +179,10 @@ manav = [...meyveler,...sebzeler];
 			4. elde edilen string döndürülecek
  */
 
-function emojileriDonustur(/* kodlar buraya */){
-/* kodlar buraya */
-
-}
+			function emojileriDonustur(strMesaj, objEmojiler){
+				const result = strMesaj.replaceAll(/:\)|:\(|:d|:p|:o|<3/gi, e => emojiler[e.toLowerCase()]);
+				return result;
+				}
 
 
 
