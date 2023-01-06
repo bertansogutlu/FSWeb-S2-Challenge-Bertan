@@ -138,8 +138,8 @@ function paragrafOlustur(arr, callbackKur, callbackDonustur){
  */
 //3a çözümü
 /* kodlar buraya */
-
-
+meyveler.pop();
+meyveler.shift();
 
 
 
@@ -148,6 +148,8 @@ function paragrafOlustur(arr, callbackKur, callbackDonustur){
 */
 //3b çözümü
 /* kodlar buraya */
+sebzeler.unshift("🐇");
+sebzeler.push("🦔");
 
 
 
@@ -162,7 +164,7 @@ function paragrafOlustur(arr, callbackKur, callbackDonustur){
 /* kodlar buraya */
 
 var manav;
-
+manav = [...meyveler,...sebzeler];
 
 
 
