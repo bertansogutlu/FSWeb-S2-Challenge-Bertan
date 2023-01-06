@@ -1,55 +1,55 @@
 /* Aşağıda global olarak tanımlanmış değişkenler bulunmaktadır, bunları değiştirmeyin. Açıklamaları takip ederek görevleri tamamlayın. */
 var cumleler = [
-	["Annem","ekmek","almak","için","gitti."],
-	["Babam","her","zaman","çok","sevdi."],
-	["Annemin","bugün","2'de","doğum","günü."],
-	["Olanları","unutup","bir","daha","dönemem."],
-	["Her","zaman","içinde","yarası","var."],
-	["O","zaman","senin","bu","halindim."],
-	["Artık","içimden","bir","şey","gelmiyor."],
-	["Kader","bizi","her","zaman","ayırdı."],
-	["Hiç","bir","zaman","yazılanı","silemedim."],
-	["İçimden","gel","dedim","ama","gelmedin."],
-	["Kader","o","defteri","tekrar","açamaz."],
-	["Şarkılar","seni","bana","hatırlatan","gerçekti."],
-	["Bu","gece","çok","uykum","vardı."],
-	["Neden","böyle","yaptığına","anlam","veremedim."],
-	["Benim","boyum","ondan","bayağı","kısaydı."],
-	["Senin","gibi","birini","sevdim."],
-	["Kader","seni","yeniden","yazamıyorum."],
-	["Neden","bu","kadar","acı?"],
-	["Ben","böyle","olmasını","istemedim."],
-	["Sonumu","ve","önümü","bilemiyorum."],
-	["Sana","gel","bile","diyemiyorum."],
-	["Onu","çok","seviyor."],
-	["Olan","oldu","artık."],
-	["Basım","çok","ağrıyor."],
-	["Neden","böyle","olduk?"],
-	["Nereden","nereye","gelmiştik."],
-	["Düşünmekten,","kendimden","yoruldum."],
-	["Böyle","yaptı."],["Suçlu","değilsin."],
-	["Neden","yaptın?"],
-	["Sana","değer."],
-	["Acım","içimde."],
-	["Annen","hazırdı."],
+	["Annem", "ekmek", "almak", "için", "gitti."],
+	["Babam", "her", "zaman", "çok", "sevdi."],
+	["Annemin", "bugün", "2'de", "doğum", "günü."],
+	["Olanları", "unutup", "bir", "daha", "dönemem."],
+	["Her", "zaman", "içinde", "yarası", "var."],
+	["O", "zaman", "senin", "bu", "halindim."],
+	["Artık", "içimden", "bir", "şey", "gelmiyor."],
+	["Kader", "bizi", "her", "zaman", "ayırdı."],
+	["Hiç", "bir", "zaman", "yazılanı", "silemedim."],
+	["İçimden", "gel", "dedim", "ama", "gelmedin."],
+	["Kader", "o", "defteri", "tekrar", "açamaz."],
+	["Şarkılar", "seni", "bana", "hatırlatan", "gerçekti."],
+	["Bu", "gece", "çok", "uykum", "vardı."],
+	["Neden", "böyle", "yaptığına", "anlam", "veremedim."],
+	["Benim", "boyum", "ondan", "bayağı", "kısaydı."],
+	["Senin", "gibi", "birini", "sevdim."],
+	["Kader", "seni", "yeniden", "yazamıyorum."],
+	["Neden", "bu", "kadar", "acı?"],
+	["Ben", "böyle", "olmasını", "istemedim."],
+	["Sonumu", "ve", "önümü", "bilemiyorum."],
+	["Sana", "gel", "bile", "diyemiyorum."],
+	["Onu", "çok", "seviyor."],
+	["Olan", "oldu", "artık."],
+	["Basım", "çok", "ağrıyor."],
+	["Neden", "böyle", "olduk?"],
+	["Nereden", "nereye", "gelmiştik."],
+	["Düşünmekten,", "kendimden", "yoruldum."],
+	["Böyle", "yaptı."], ["Suçlu", "değilsin."],
+	["Neden", "yaptın?"],
+	["Sana", "değer."],
+	["Acım", "içimde."],
+	["Annen", "hazırdı."],
 	["Bıktım."],
 	["İstedim."],
 	["Yaptım."],
 	["Nedendi?"],
 	["Yoruldum."]
-	];
-	
-	var sebzeler = ['🍅', '🍄', '🥦', '🥒', '🌽', '🥕', '🥑'];
-	var meyveler = ['🍇','🍈','🍉','🍊','🍋','🍌','🍍','🥭','🍎','🍐','🍑','🍒','🍓','🥝','🥥']
-	
-	var emojiler = { 
+];
+
+var sebzeler = ['🍅', '🍄', '🥦', '🥒', '🌽', '🥕', '🥑'];
+var meyveler = ['🍇', '🍈', '🍉', '🍊', '🍋', '🍌', '🍍', '🥭', '🍎', '🍐', '🍑', '🍒', '🍓', '🥝', '🥥']
+
+var emojiler = {
 	":)": "🙂",
 	":(": "😔",
 	":d": "😁",
 	":p": "😛",
 	":o": "😱",
 	"<3": "❤️",
-	}
+}
 
 
 
@@ -69,8 +69,8 @@ var cumleler = [
 	*/
 
 // ÖRNEĞİN ÇÖZÜMÜ:
-function cumleKur(birinci, ikinci="", ucuncu="", dorduncu="", besinci=""){
-	return birinci+ikinci+ucuncu+dorduncu+besinci;
+function cumleKur(birinci, ikinci = "", ucuncu = "", dorduncu = "", besinci = "") {
+	return birinci + ikinci + ucuncu + dorduncu + besinci;
 }
 
 /* (Oto test yok) cumleKur fonksiyonuna yalnızca 1 parametre göndererek "Hello World!" stringini elde edin, sonucu konsolde gözlemleyin */
@@ -79,7 +79,7 @@ console.log(cumleKur("Hello World!"))
 
 
 /* (Oto test yok) cumleKur fonksiyonuna yalnızca 2 parametre göndererek "Hello World!" stringini elde edin, sonucu konsolde gözlemleyin */
-console.log(cumleKur("Hello ","World!"))
+console.log(cumleKur("Hello ", "World!"))
 
 
 
@@ -102,15 +102,15 @@ bircumle = cumleKur("Ben ", "iyi ", "bir ", "yazılımcı ", "olacağım!")
 			4. Oluşturulan her cümle yeni bir dizi oluşturulup o dizinin içine aktarılacak. 
 			5. Oluşturulan yeni dizi döndürülecek.
 	*/
-	
 
-	function cumlelereDonustur(arr, str=","){
+
+function cumlelereDonustur(arr, str = ",") {
 	const cumlelerArr = [];
-		for (let cumle of arr) {
+	for (let cumle of arr) {
 		cumlelerArr.push(cumle.join(str));
-		}
-	return cumlelerArr;
 	}
+	return cumlelerArr;
+}
 
 
 
@@ -124,11 +124,11 @@ bircumle = cumleKur("Ben ", "iyi ", "bir ", "yazılımcı ", "olacağım!")
 			   cumleKur dizisinin parametreleri olarak aktarılarak çağırılacak ÖRNEK: callback(dizi[1],dizi[2],dizi[3],dizi[5],dizi[7])
 			6. Oluşturulan paragraf döndürülecek
 	*/
-	
-function paragrafOlustur(arr, callbackKur, callbackDonustur){
+
+function paragrafOlustur(arr, callbackKur, callbackDonustur) {
 	const dizi = callbackDonustur(cumleler, " ");
-	const paragraf = callbackKur(dizi[1],dizi[3],dizi[5],dizi[7],dizi[9]);
-	return paragraf; 
+	const paragraf = callbackKur(dizi[1], dizi[3], dizi[5], dizi[7], dizi[9]);
+	return paragraf;
 }
 
 
@@ -143,7 +143,7 @@ meyveler.shift();
 
 
 
- 
+
 /* 			3b.  Bir tavşan ve bir kirpi arkadaşlar sebzeler dizimizin peşine düştü. Tavşan => 🐇 , Kirpi=> 🦔 , Tavşanla kirpi sebzeleri ele geçirmek için bir plan kurdular. Tavşan diziye önden saldıracak, kirpi ise arkalarından dolaşacak. Varsayalım ki arkadaşların planları başarılı oldu. Tavşanı dizinin ilk elemanına 🐇, Kirpiyi dizinin son elemanına ekleyin 🦔 
 */
 //3b çözümü
@@ -160,11 +160,11 @@ sebzeler.push("🦔");
 
 /* 			3c. manav isminde bir dizi oluşturun.`meyveler` dizisi ilk elemanlara, `sebzeler` dizisi son elemanlara denk gelecek şekilde, iki diziyi birleştirip sonucu manav dizisine aktarın. (.concat metodu)
 	*/
-	//3c çözümü
+//3c çözümü
 /* kodlar buraya */
 
 var manav;
-manav = [...meyveler,...sebzeler];
+manav = [...meyveler, ...sebzeler];
 
 
 
@@ -179,21 +179,21 @@ manav = [...meyveler,...sebzeler];
 			4. elde edilen string döndürülecek
  */
 
-			function emojileriDonustur(strMesaj, objEmojiler){
-				const result = strMesaj.replaceAll(/:\)|:\(|:d|:p|:o|<3/gi, e => emojiler[e.toLowerCase()]);
-				return result;
-				}
+function emojileriDonustur(strMesaj, objEmojiler) {
+	const result = strMesaj.replaceAll(/:\)|:\(|:d|:p|:o|<3/gi, e => emojiler[e.toLowerCase()]);
+	return result;
+}
 
 
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
-function sa(){
-    console.log('Kodlar çalışıyor');
-    return 'as';
+function sa() {
+	console.log('Kodlar çalışıyor');
+	return 'as';
 }
 sa();
 module.exports = {
-    sa,
+	sa,
 	cumleler,
 	cumleKur,
 	bircumle,
