@@ -74,12 +74,12 @@ function cumleKur(birinci, ikinci="", ucuncu="", dorduncu="", besinci=""){
 }
 
 /* (Oto test yok) cumleKur fonksiyonuna yalnızca 1 parametre göndererek "Hello World!" stringini elde edin, sonucu konsolde gözlemleyin */
-
+console.log(cumleKur("Hello World!"))
 
 
 
 /* (Oto test yok) cumleKur fonksiyonuna yalnızca 2 parametre göndererek "Hello World!" stringini elde edin, sonucu konsolde gözlemleyin */
-
+console.log(cumleKur("Hello ","World!"))
 
 
 
@@ -87,7 +87,7 @@ function cumleKur(birinci, ikinci="", ucuncu="", dorduncu="", besinci=""){
 var bircumle;
 
 /* kodlar buraya */
-
+bircumle = cumleKur("Ben ", "iyi ", "bir ", "yazılımcı ", "olacağım!")
 
 
 //		Sayfanın en üstünde global olarak tanımlanmış `cumleler` adında bir dizi bulunmaktadır. Bu dizinin içinde en çok 5 en az 1 adet string bulunan diziler bulunmaktadır. Aşağıdaki görevlerde aksi belirtilmedikçe bu dizi kullanılacaktır.
@@ -104,9 +104,13 @@ var bircumle;
 	*/
 	
 
-function cumlelereDonustur(/* kodlar buraya */ ){
-	/* kodlar buraya */
-}
+	function cumlelereDonustur(arr, str=","){
+	const cumlelerArr = [];
+		for (let cumle of arr) {
+		cumlelerArr.push(cumle.join(str));
+		}
+	return cumlelerArr;
+	}
 
 
 
